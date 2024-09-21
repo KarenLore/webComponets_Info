@@ -1,0 +1,83 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #f0f4ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+info-card hobbies-element{
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    max-width: 900px;
+    width: 90%;
+    border: 4px solid #4b6584;
+}
+
+.name {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2d98da;
+}
+
+.profile-pic {
+    display: flex;
+    width: 90px; 
+    height: auto;
+    border-radius: 50%; 
+    margin: -50px auto 20px; /* Ajuste de márgenes */
+    border: 2px solid black;
+    justify-content: center;
+}
+
+.hobbies {
+    grid-column: 1 / 2;
+    list-style: none;
+    padding-left: 0;
+    font-size: 18px;
+    color: #4b6584;
+    border-right: 2px solid #dcdde1;
+    padding-right: 20px;
+}
+
+.hobbies li {
+    margin-bottom: 12px;
+    padding: 8px;
+    background-color: #d1d8e0;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.professional {
+    text-align: center;
+    justify-content: center;
+    grid-column: 2 / 4;
+    background-color: #f7f1e3;
+    padding: 40px; /* Ajuste en padding */
+    border-radius: 12px;
+    font-size: 18px;
+    font-style: italic;
+    color: #2c3e50;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.professional p {
+    margin: 0;
+}
+
+.perfil {
+    grid-column: 3 / -1;
+}
+.email{
+    color: blue;
+}
