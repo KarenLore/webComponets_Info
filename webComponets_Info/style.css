@@ -35,7 +35,7 @@ info-card hobbies-element{
     width: 90px; 
     height: auto;
     border-radius: 50%; 
-    margin: -50px auto 20px; /* Ajuste de márgenes */
+    margin: 0 auto; /* Ajuste de márgenes */
     border: 2px solid black;
     justify-content: center;
 }
@@ -80,4 +80,18 @@ info-card hobbies-element{
 }
 .email{
     color: blue;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2d98da;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #1a7dba;
 }
